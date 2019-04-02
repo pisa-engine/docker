@@ -1,4 +1,4 @@
-FROM FROM gcc:8.3
+FROM gcc:8.3
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
          cmake git autotools-dev autoconf libtool \

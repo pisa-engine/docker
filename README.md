@@ -8,13 +8,22 @@ It provides the ability to run command-line tools in an isolated environment.
 The image can be furthermore used as a base for other images that provide means
 of reproducing specific scenarios using PISA engine.
 
+The image is available in [Docker Hub](https://hub.docker.com/r/pisa/pisa) and can be pulled with the command `docker pull pisa/pisa`.
+
 ## Building Image
 
-The image is currently unavailable on the Docker Hub.
-You can, however, easily build it on your machine:
+```
+git clone https://github.com/pisa-engine/docker.git
+cd docker
+make image
+``` 
 
-    # git clone https://github.com/pisa-engine/docker.git
-    # docker build --tag=pisa ./docker
+## Push image to Docker Hub
+
+```
+make push-image
+``` 
+
 
 ## Command-Line Usage
 

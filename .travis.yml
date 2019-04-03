@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-  - docker build --tag=pisa ./docker
+  - docker build --tag=pisa .

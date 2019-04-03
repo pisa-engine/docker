@@ -1,6 +1,8 @@
 PISA Docker Image
 =================
 
+[![Build Status](https://travis-ci.com/pisa-engine/docker.svg?branch=master)](https://travis-ci.com/pisa-engine/docker)
+
 This project provides a Docker image for [PISA](https://github.com/pisa-engine/pisa).
 It provides the ability to run command-line tools in an isolated environment.
 The image can be furthermore used as a base for other images that provide means
